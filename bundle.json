@@ -1,0 +1,16 @@
+{
+    "id":"b3adc8a5-635a-47fa-8830-d4a27c74a957",
+    "author":"",
+    "widgets":[
+        {
+            "id":"uxp_widget",
+            "title":"uxp_widget",
+            "description":"A sample widget"
+        }
+    ],
+    "sidebarLinks":[
+        {
+            "id":"uxp_widgetLink"
+        }
+    ]
+}

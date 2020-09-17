@@ -1,0 +1,388 @@
+.widget-wrapper{
+    margin-top: 0em;
+}
+.widget-container-block{
+    overflow: auto;
+}
+.technician-section{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    height: 100%;
+
+    .technician_chart-section{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+
+        .technician_chart{
+            display: inline-block;
+            width: 100%;
+            left: -20px;
+            position: relative;
+            height: 98%;  
+
+            .recharts-wrapper{ 
+                .recharts-layer{
+                    font-size: 8px;  
+                } 
+            }
+           
+            .recharts-legend-wrapper{
+                display: inline-block;
+                width: auto!important;
+                right: 0!important;
+                left: unset!important;
+                top: -25px !important;
+                bottom: unset!important; 
+            } 
+        }
+
+        &#totalTechnician{              
+            height: 70%; 
+        }  
+    }
+
+    .sample-subtitle{
+        background-color: #8d548140;
+    }
+    .list-card{
+        display: inline-block;
+        width: 100%;
+        margin-top: 10px;
+
+        .sample-item-field{
+            .label{
+                font-size: 10px;
+                font-weight: 600; 
+                width: 40%;
+            }
+       
+
+        .value{ 
+            display: inline-block;
+            width: 100%;
+                .percentage{
+                    .up, .down{
+                        display: inline-block;
+                        width: 12px;
+                        height: 12px;
+                        background-position: center center;
+                        background-repeat: no-repeat;
+                        background-size: 100% auto;
+                    }
+    
+                    .up{ 
+                        background-image: url(https://static.iviva.com/images/top-green-arrow.png); 
+                    }
+                    .down{ 
+                        background-image: url(https://static.iviva.com/images/bottom-green-arrow.png); 
+                    }
+                }
+            }
+        }
+    } 
+}
+span.recharts-legend-item-text {
+    font-size: 10px;
+    text-transform: capitalize;
+}
+.action-section{
+    display: inline-flex;
+    width: 75%;
+
+    .digi_twin-rgt{
+        display: inline-flex;
+        width: 100%;
+
+        .digital-selbox{
+            display: inline-block;
+            width: 30%;
+            padding: 0 10px;
+        }
+        .digital-sm-bar{
+            display: inline-block;
+            width: 30%;
+            padding: 30px 10px 20px 10px;
+            &.digital-filter-bar{
+                padding: 40px 10px 20px 10px;
+                width: 7%;
+            }
+        }
+    }
+}
+
+.nav_bar_section{
+    display: inline-flex;
+    width: 100%;
+    margin: 0 0 2em 0;
+
+    .nav_bar{
+        display: inline-block;
+        /* width: 15%;
+         margin: 0 5%;*/
+
+        width: 100%;
+        margin: 0 0%;
+
+        &:first-child{
+            margin-left: 0;
+        }
+        &:last-child{
+            margin-right: 0;
+        }
+
+        .nav_bar_icon{
+            display: inline-block;
+                padding: 10px;
+                background: #fff;
+                border-radius: 10px;
+                width: 100%;
+                height: 130px; 
+                position: relative;
+
+                .profile-image-container{
+                    transform: translate(-50%, -50%);
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                }
+        }
+        .nav_bar_name{
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            margin-top: 10px;
+            line-height: 1.3em; 
+        }
+    }
+}
+
+.clog-top-calen{
+    position: absolute;
+    top: 12px;
+    right: 30px;
+}
+
+.clog-section{
+    display: inline-flex;
+    margin-top: 2.5em;
+
+    .clog-section-lft{
+        display: inline-block;
+        width: 20%;
+
+        .clog-ahu-filter{
+            display: inline-block;
+            width: 100%;
+            position: relative;
+            text-align: center; 
+
+            .ahu-filter-pict{ 
+                background-image: url(https://static.iviva.com/images/Maf_dashboard/AHU-filter.svg);
+                width: 140px;
+                height: 140px;   
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: 100%; 
+                display: inline-block;
+            }
+            .ahu-filter-txt{  
+                margin: 10px 0 0 0;
+                text-align: left;
+                display: inline-block;
+
+                h4{
+                    font-size: 2em;
+                    margin: 0;
+                }
+                p{
+                    font-size: 11px;
+                    margin: 5px 0 0 0;
+                }
+
+            }
+        }
+
+    }
+    .clog-section-rgt{
+        display: inline-block;
+        width: 80%;
+
+        .clog_data_list{
+            display: inline-block;
+            .list-item-header{
+                 background-color: #fef7f3;
+                 border-radius: 10px 10px 0 0;
+
+                .list-item-elmt{
+                    font-size: 10px;
+                    &.asset{
+                        width: 29%;
+                    }
+                    &.gradient{
+                        width: 13%;
+                    }
+                    &.feedback{
+                        width: 19%;
+                    }
+                    &.pressure_value{
+                        width: 15%;
+                    }
+                    &.pressure_low{
+                        width: 24%;
+
+                        .uxp-form-group{
+                            margin-bottom: 0;
+                            margin-top: -10px;
+                        
+                        }
+                    }
+                }
+            }
+
+            .data-list{
+
+                .data-list-item{ 
+
+                    &:nth-child(even){
+                        .list-item{
+                            background-color: #fef7f3;
+                        } 
+                    }
+                    &:nth-child(odd){
+                        .list-item{
+                            background-color: #f5ebe5;
+                        } 
+                    }
+                    .list-item{   display: inline-block;
+
+                    .up, .down{
+                        display: inline-block;
+                        background-position: center center;
+                        background-repeat: no-repeat;
+                        background-size: 100%;
+                        width: 12px;
+                        height: 12px;
+                        margin-top: 0px;
+                        position: absolute;
+                        margin-left: 3px;
+                    } 
+                    .list-item-elmt{
+                        background: #fff;
+                        padding: 5px 10px;
+                        border-radius: 5px;
+                        box-shadow: 0px 0px 7px #2c2c2c78;
+                        
+                        
+                        display: inline-block;
+                        width: 6%;
+                        margin: 0 6%;
+
+                        &.asset{
+                            // width: auto;
+
+                            width: 21%;
+                            display: inline-block;
+                            margin: 0 2% 0 0;
+                        }
+                    }
+                    .up{
+                        background-image: url(https://static.iviva.com/images/Maf_dashboard/top-arrow.svg);
+                    }
+                    .down{
+                        background-image: url(https://static.iviva.com/images/Maf_dashboard/down-arrow.svg);
+                    }
+                }
+
+                }
+
+               
+
+                // .data-list-item:nth-child(even){
+                //     .list-item{
+                //         background-color: #fef7f3;
+                //     } 
+                // }
+
+                // .data-list-item:nth-child(odd){
+                //     .list-item{
+                //         background-color: #f5ebe5;
+                //     } 
+                // }
+            }
+        }
+    }
+}
+
+.recharts-tooltip-cursor, .recharts-cartesian-grid{
+
+    display: none;
+}
+ 
+.technician_chart{
+    .recharts-surface{
+        .recharts-layer{
+            &:nth-child(even){
+                .recharts-bar-rectangles{
+                    .recharts-layer{
+                        .recharts-bar-rectangle{ 
+                            path{
+                                &:hover{
+                                    fill: #c8c8c8;
+                                }
+                            } 
+                        }
+                    }
+                }
+            }
+
+            &:nth-child(odd){
+                .recharts-bar-rectangles{
+                    .recharts-layer{
+                        .recharts-bar-rectangle{ 
+                            path{
+                                &:hover{
+                                    fill: #efefef;
+                                }
+                            } 
+                        }
+                    }
+                }
+            } 
+                     
+        }
+    }
+} 
+ 
+
+.my-custom-tooltip{
+    display: inline-block;
+    width: 100px;
+   
+
+    .overall-tooltip{
+        display: inline-block;
+        width: 100%;
+        background-color: #48809d;
+        margin-top: 10px;
+        color: #fff;
+
+        .cust-tooltip-lft{
+            display: inline-block;
+            width: 40%;
+            text-align: center;
+        }
+        .cust-tooltip-rht{
+            display: inline-block;
+            width: 40%;
+            text-align: center;
+        }
+        p{
+            display: inline-block;
+            width: 10%;
+            text-align: center;
+        }
+    }
+}
