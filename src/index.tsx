@@ -12,39 +12,39 @@ const reliability_data = [
         name: 'Jan',  HVAC: 5, LIGHTING: 6, ELEVATORS: 7, FIRE_ALARM: 8, amt: 35, 
     }, 
 
-    // {
-    //     name: 'Feb', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
-    // },
-    // {
-    //     name: 'Mar', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
-    // },
-    // {
-    //     name: 'Apr', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
-    // },
-    // {
-    //     name: 'May', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
-    // },
-    // {
-    //     name: 'Jun', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
-    // },
-    // {
-    //     name: 'Jul', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
-    // },
-    // {
-    //     name: 'Aug', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
-    // },
-    // {
-    //     name: 'Sep', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
-    // },
-    // {
-    //     name: 'Oct', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
-    // },
-    // {
-    //     name: 'Nov', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
-    // },
-    // {
-    //     name: 'Dec', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
-    // }
+    {
+        name: 'Feb', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
+    },
+    {
+        name: 'Mar', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
+    },
+    {
+        name: 'Apr', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
+    },
+    {
+        name: 'May', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
+    },
+    {
+        name: 'Jun', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
+    },
+    {
+        name: 'Jul', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
+    },
+    {
+        name: 'Aug', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
+    },
+    {
+        name: 'Sep', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
+    },
+    {
+        name: 'Oct', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
+    },
+    {
+        name: 'Nov', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
+    },
+    {
+        name: 'Dec', HVAC: 5, LIGHTING: 5, ELEVATORS: 5, FIRE_ALARM: 5, amt: 25,
+    }
 ];
 
 const data = [
